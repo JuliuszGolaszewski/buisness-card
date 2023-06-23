@@ -1,0 +1,44 @@
+.body {
+    background-color: #2C2141;
+}
+
+.special {
+    color: #ED6D05;
+    font-weight: normal;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 624px;
+    min-height: 320px;
+    background-color: #F8F8F8;
+    border-radius: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 32px;
+}
+
+.card__link {
+    color: #E20613;
+    text-decoration: none;
+}
+
+.card__header {
+    font-weight: normal;
+    margin: 0;
+}
+
+.card__job {
+    margin: 0;
+}
+
+.card__description {
+
+}
+
+.card__contact {
+
+}
+
+.card__image {
+
+}
