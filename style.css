@@ -1,5 +1,10 @@
 .body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: #2C2141;
+    min-height: 100vh;
 }
 
 .special {
@@ -8,6 +13,9 @@
 }
 
 .card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     box-sizing: border-box;
     width: 624px;
     min-height: 320px;
@@ -15,6 +23,7 @@
     border-radius: 16px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 32px;
+    line-height: 22px;
 }
 
 .card__link {
@@ -24,15 +33,18 @@
 
 .card__header {
     font-weight: normal;
+    font-size: 36px;
     margin: 0;
 }
 
 .card__job {
     margin: 0;
+    color: #545454;
+    font-style: italic;
 }
 
 .card__description {
-
+    
 }
 
 .card__contact {
@@ -40,5 +52,5 @@
 }
 
 .card__image {
-
+    margin-right: 32px;
 }
